@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+body {
+  background: #0B0D10;
+  color: white;
+}
+
+/* subtle paint-splatter vibe */
+.bg-splatter {
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(166,217,74,0.18) 0 12px, transparent 13px),
+    radial-gradient(circle at 85% 25%, rgba(89,195,240,0.16) 0 10px, transparent 11px),
+    radial-gradient(circle at 30% 80%, rgba(89,195,240,0.10) 0 18px, transparent 19px),
+    radial-gradient(circle at 70% 75%, rgba(166,217,74,0.12) 0 16px, transparent 17px);
+  background-repeat: no-repeat;
+}
